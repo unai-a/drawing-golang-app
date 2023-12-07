@@ -19,6 +19,10 @@ This is a real-time drawing application built using Go and JavaScript. It allows
 
 The application uses WebSockets to establish a real-time, bi-directional communication channel between the server (Go) and the client (JavaScript). When a user draws on the canvas, the client sends the drawing data to the server, which then broadcasts it to all connected clients. The clients then render the received drawing data on their own canvases.
 
+## Video Showcase
+
+https://youtu.be/XDzn24CQQ7A
+
 ## Setup and Run
 
 1. Ensure you have Go installed on your machine.
