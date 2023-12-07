@@ -26,7 +26,8 @@ The application uses WebSockets to establish a real-time, bi-directional communi
 3. Navigate to the project directory and run `go run main.go` to start the server.
 4. Open `static/index.html` in your browser to start drawing.
 5. The main features of this real-time drawing application are:
-
+   
+## Functionalities (more to be added)
 
 1. **Drawing Tools**: Users can draw lines on the canvas with different colors and thicknesses. The color and thickness can be changed through the user interface.
 
