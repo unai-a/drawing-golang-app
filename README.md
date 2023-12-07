@@ -21,6 +21,8 @@ The application uses WebSockets to establish a real-time, bi-directional communi
 
 ## Video Showcase
 
+[![Watch the video](https://i.stack.imgur.com/Vp2cE.png)]([https://youtu.be/vt5fpE0bzSY](https://youtu.be/XDzn24CQQ7A))
+
 https://youtu.be/XDzn24CQQ7A
 
 ## Setup and Run
