@@ -25,6 +25,20 @@ The application uses WebSockets to establish a real-time, bi-directional communi
 2. Clone the repository.
 3. Navigate to the project directory and run `go run main.go` to start the server.
 4. Open `static/index.html` in your browser to start drawing.
+5. The main features of this real-time drawing application are:
+
+
+1. **Drawing Tools**: Users can draw lines on the canvas with different colors and thicknesses. The color and thickness can be changed through the user interface.
+
+2. **Clear Canvas**: Users have the option to clear the entire canvas.
+
+3. **Responsive Canvas**: The canvas adjusts its size based on the size of the parent container, maintaining its aspect ratio.
+
+4. **Preservation of Drawing State**: When the canvas is resized, the existing drawing data is stored and then restored to the new canvas size.
+
+5. **Server-side Handling**: The server handles client connections and messages, broadcasting drawing data to all connected clients.
+
+6. **Error Handling**: The application handles errors such as issues with upgrading to WebSocket, reading JSON from WebSocket, and writing JSON to WebSocket.
 
 ## Contributing
 
