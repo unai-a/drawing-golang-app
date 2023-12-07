@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Realtime Drawing App</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<div class="container">
+	<div class="columns">
+		<div class="column is-8">
+			<div class="card">
+				<div class="card-content">
+					<div class="content">
+						<canvas id="canvas"></canvas>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="column is-4">
+			<div class="card">
+				<div class="card-content">
+					<div class="content">
+						<div class="field">
+							<label class="label">Color</label>
+							<div class="control">
+								<div class="select">
+									<select id="color">
+										<option value="black">Black</option>
+										<option value="red">Red</option>
+										<option value="green">Green</option>
+										<option value="blue">Blue</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div class="field">
+							<label class="label">Thickness</label>
+							<div class="control">
+								<div class="select">
+									<select id="thickness">
+										<option value="1">1</option>
+										<option value="3">3</option>
+										<option value="5">5</option>
+										<option value="7">7</option>
+										<option value="9">9</option>
+										<option value="11">11</option>
+										<option value="13">13</option>
+									</select>
+								</div>
+							</div>
+						</div>
+					</div>
+
+						<div class="field">
+							<div class="control">
+								<button id="clear" class="button is-danger is-fullwidth">Clear</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/3.3.2/uuid.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/js/bulma.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/js/all.min.js"></script>
+	<script src="app.js"></script>
+</div>
+</html>
